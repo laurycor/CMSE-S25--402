@@ -1,13 +1,1 @@
-# CMSE 402, "Data Visualization Principles and Techniques"
-
-This is the **student Git repository** for CMSE 402. It contains the core materials for the course. This includes (in various directories):
-
-* course_documents/ -- logistical documents with general course information
-* readings/ -- readings for the course (these will also be available with the appropriate assignments)
-* project/ -- semester project information
-
-This repository may be updated as the course progresses.
-
-The course website can be accessed here: https://msu-cmse-courses.github.io/cmse402-S25-student/
-
-Note that many documents in this repository use Markdown as a formatting language, see https://daringfireball.net/projects/markdown/syntax or https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet for more information and instructions on how to use this. You can read this easily with any text editor, but for proper formatting you should look at it with a Markdown editor (e.g., MacDown for OS X: https://macdown.uranusjr.com/ or Visual Studio code: https://code.visualstudio.com/).
+In *A Layered Grammar of Graphics*, Hadley Wickham shows that statistical graphics are simpler to describe and build if we treat them as an expression of a “grammar” rather than trying to force them into a named structure such as a scatterplot or histogram. The grammar of graphics breaks a plot down into its independent components (data and mapping, statistics, geometries, scales, coordinates, and facets) that can be combined in a wide variety of ways. This concept is built around the idea of **layers** which are a way of transforming the data into separate plots, allowing plots to be built and modified in a stepwise fashion. By applying this approach in **ggplot2**, Wickham shows how thinking about plots, examining options, and building them becomes easier (one change needs to be made once rather than to each plot individually), the grammar of graphics is not only helpful in building graphics but it can also be evaluated in ways that promote well-designed plots that are explicit and unambiguous, rather than poorly-designed plots if defaults are not overcome.
